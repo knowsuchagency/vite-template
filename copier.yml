@@ -18,3 +18,8 @@ project_description:
   type: str
   help: Brief project description
   default: A Vite + React + TypeScript project
+
+port:
+  type: int
+  help: Host port for development server
+  default: 3000
